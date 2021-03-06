@@ -1,0 +1,20 @@
+name: P2W-Anvils
+main: com.github.fefo.p2wanvils.P2WAnvils
+version: ${project.version}
+authors: [ Fefo ]
+depend: [ Vault ]
+
+permissions:
+  p2wanvils.reload:
+    default: op
+    description: "Permission required to reload the config file from disk into memory."
+  p2wanvils.freeuse:
+    default: op
+    description: "Allows complete free use over the anvils, not requiring any amount of money."
+
+commands:
+  p2wanvilsreload:
+    usage: "/p2wanvilsreload"
+    description: "Reloads the config file from disk into memory."
+    permission: "p2wanvils.reload"
+    permission-message: "§cYou cannot execute this command!"

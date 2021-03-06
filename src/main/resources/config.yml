@@ -1,0 +1,15 @@
+# This will only work in the specified worlds.
+enabledInWorlds:
+  - world
+  - world_nether
+  - world_the_end
+
+# Self explanatory.
+coinsRequired: 100.0
+secondsToRepair: 4
+
+# Various messages.
+anvilCurrentlyInUseMessage: "&cThis anvil is currently in use"
+itemNotDamagedMessage: "&cThe tool or piece of equipment you are currently holding with your main hand is not damaged"
+itemRepairedMessage: "&bYour item has been repaired!"
+notEnoughCoinsMessage: "&cYou don't have enough coins to repair this item"
